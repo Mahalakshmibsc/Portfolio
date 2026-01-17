@@ -62,3 +62,16 @@ button:hover {
 .drive-btn:hover {
     background: #2c8c46;
 }
+
+.whatsapp-btn {
+    background-color: #25d366;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.whatsapp-btn:hover {
+    background-color: #1ebd5a;
+}
