@@ -78,13 +78,6 @@ button:hover {
     transition: color 0.3s ease;
         text-decoration: none;   
  
-
-
-.contact-icons a:active {
-    text-decoration: none;
-}
-
-
 }
 
 .contact-icons a:hover {
