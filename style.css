@@ -68,6 +68,7 @@ button:hover {
 .contact {
     text-align: left;
     padding: 40px 20px;
+    text-decoration: none;   
 }
 
 .contact-icons a {
