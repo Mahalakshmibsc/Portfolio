@@ -1,11 +1,9 @@
 function openWhatsApp() {
-    var phoneNumber = "919080451235"; // Your number with country code
-    var message = "Hello Maha Lakshmi, I viewed your portfolio and would like to connect with you.";
-
-    var url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
-    window.open(url, "_blank");
+    var phone = "919080451235"; // your WhatsApp number
+    var msg = "Hello Maha Lakshmi, I viewed your portfolio and would like to connect.";
+    window.open("https://wa.me/" + phone + "?text=" + encodeURIComponent(msg), "_blank");
 }
 
 function sendEmail() {
-    window.location.href = "mailto:mahalakshmi.bsc23@gmail.com?subject=Portfolio Review&body=Hello Maha Lakshmi,";
+    window.location.href = "mailto:yourname@gmail.com?subject=Portfolio Contact";
 }
