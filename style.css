@@ -63,29 +63,21 @@ button:hover {
     background: #2c8c46;
 }
 
+
+
 .contact {
     text-align: center;
     padding: 40px 20px;
 }
 
-.contact h2 {
-    margin-bottom: 20px;
+.contact-icons a {
+    margin: 0 15px;
+    color: #333;
+    font-size: 36px;
+    transition: color 0.3s ease;
 }
 
-.contact-icons {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-
-.contact-icons img {
-    width: 48px;
-    height: 48px;
-    cursor: pointer;
-    transition: transform 0.2s ease;
-}
-
-.contact-icons img:hover {
-    transform: scale(1.15);
+.contact-icons a:hover {
+    color: #25d366;
 }
 
