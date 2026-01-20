@@ -5,5 +5,5 @@ function openWhatsApp() {
 }
 
 function sendEmail() {
-    window.location.href = "mailto:yourname@gmail.com?subject=Portfolio Contact";
+    window.location.href = "mailto:mahalakshmi.bsc23@gmail.com?subject=Portfolio Contact";
 }
