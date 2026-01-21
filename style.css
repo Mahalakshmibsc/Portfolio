@@ -71,27 +71,36 @@ button:hover {
 }
 
 .contact-icons {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 25px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
-.contact-icons a {
-    text-decoration: none;
-    font-size: 34px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.icon {
+  font-size: 40px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-.contact-icons span {
-    font-size: 14px;
-    margin-top: 6px;
+.icon:hover {
+  transform: scale(1.1);
+  opacity: 0.85;
 }
 
-.contact-icons a.whatsapp i {
-    color: #25D366;
+/* WhatsApp */
+.icon-whatsapp {
+  color: #25D366;
+}
+
+/* LinkedIn */
+.icon-linkedin {
+  color: #0A66C2;
+}
+
+/* Gmail (Google Red – most recognizable) */
+.icon-gmail {
+  color: #EA4335;
 }
 
 
