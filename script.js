@@ -14,3 +14,6 @@ document.querySelectorAll(".contact-btn").forEach(button => {
     }, 150);
   });
 });
+
+console.log("Contact section loaded successfully");
+
