@@ -1,9 +1,16 @@
-function openWhatsApp() {
-    var phone = "919080451235"; // your WhatsApp number
-    var msg = "Hello Maha Lakshmi, I viewed your portfolio and would like to connect.";
-    window.open("https://wa.me/" + phone + "?text=" + encodeURIComponent(msg), "_blank");
-}
+// Initialize AOS
+AOS.init({
+  duration: 1000,
+  once: true,
+  easing: "ease-in-out"
+});
 
-function sendEmail() {
-    window.location.href = "mailto:mahalakshmi.bsc23@gmail.com?subject=Portfolio Contact";
-}
+// Button Click Animation
+document.querySelectorAll(".contact-btn").forEach(button => {
+  button.addEventListener("click", () => {
+    button.style.transform = "scale(0.95)";
+    setTimeout(() => {
+      button.style.transform = "scale(1)";
+    }, 150);
+  });
+});
