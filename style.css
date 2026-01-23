@@ -63,49 +63,95 @@ button:hover {
     background: #2c8c46;
 }
 
+/* Floating WhatsApp Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  z-index: 999;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
 
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
 
-.contact {
-    text-align: center;
-    padding: 50px 20px;
+/* Contact Section */
+.contact-section {
+  padding: 90px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 40px;
 }
 
 .contact-icons {
   display: flex;
-  gap: 30px;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Rounded Buttons */
+.contact-btn {
+  display: flex;
   align-items: center;
+  gap: 10px;
+  padding: 15px 28px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  min-width: 160px;
   justify-content: center;
 }
 
-.contact-icons {
-  font-size: 20px;
-  cursor: pointer;
+.contact-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
 }
 
-.contact-icons:hover {
-  transform: scale(1.1);
-  opacity: 0.85;
+/* Brand Colors */
+.whatsapp {
+  background-color: #25D366;
 }
 
-/* WhatsApp */
-.fab fa-whatsapp {
-  color: #25D366;
-      transition: transform 0.2s ease, opacity 0.2s ease;
-
+.instagram {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
 }
 
-/* LinkedIn */
 .linkedin {
-  color: #0A66C2;
-      transition: transform 0.2s ease, opacity 0.2s ease;
-
+  background-color: #0077B5;
 }
 
-/* Gmail (Google Red – most recognizable) */
 .gmail {
-  color: #EA4335;
-      transition: transform 0.2s ease, opacity 0.2s ease;
+  background-color: #D93025;
+}
 
+.contact-btn i {
+  font-size: 18px;
 }
 
 
