@@ -77,7 +77,7 @@ button:hover {
   justify-content: center;
 }
 
-.icon {
+.contact-icons {
   font-size: 40px;
   cursor: pointer;
   transition: transform 0.2s ease, opacity 0.2s ease;
