@@ -78,9 +78,8 @@ button:hover {
 }
 
 .contact-icons {
-  font-size: 40px;
+  font-size: 20px;
   cursor: pointer;
-  transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 .contact-icons:hover {
@@ -91,23 +90,29 @@ button:hover {
 /* WhatsApp */
 .fab fa-whatsapp {
   color: #25D366;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+
 }
 
 /* LinkedIn */
 .linkedin {
   color: #0A66C2;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+
 }
 
 /* Gmail (Google Red – most recognizable) */
 .gmail {
   color: #EA4335;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+
 }
 
 
 
 
 .resume-btn {
-    display: inline-block;
+    display: flex;
     padding: 12px 22px;
     background: #000;
     color: #fff;
